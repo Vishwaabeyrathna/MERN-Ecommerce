@@ -5,7 +5,7 @@ const AuthLayout = () => {
   return (
     <div className="flex min-h-screen w-full bg-gradient-to-r from-zinc-900 via-black to-zinc-800 text-white">
       {/* Left Panel */}
-      <div className="hidden lg:flex w-1/2 items-center justify-center p-12 relative overflow-hidden">
+      <div className="flex w-1/2 items-center justify-center p-12 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-tr from-purple-700 via-indigo-800 to-black opacity-70 z-0 animate-pulse"></div>
         <div className="relative z-10 max-w-md text-center space-y-6">
           <h1 className="text-5xl font-extrabold tracking-tight leading-tight animate-fade-up">
